@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Progate</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-left">Progate</div>
+    <div class="header-right">
+      <ul>
+        <li class="selected">会社概要</li>
+        <li>採用</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="sidebar">
+      <ul>
+        <li>Progateとは？</li>
+        <li>事業内容</li>
+        <li>プレスリリース</li>
+        <li>メンバー紹介</li>
+      </ul>
+      <img src="http://prog-8.com/images/sample.jpg">
+    </div>
+    
+    <div class="contents">
+      <div class="contents-top">
+        <h1>Progateとは？</h1>
+        <div class="contents-top-item">
+          <h2><span class="what-highlight">What</span> We Do</h2>
+          <p>オンラインプログラミング教育サービスを提供しています。一人でも多くの人にプログラミングの楽しみを覚えてもらうことを使命としています。</p>
+        </div>
+        <div class="contents-top-item">
+          <h2><span class="why-highlight">Why</span> We Do</h2>
+          <p>パソコン１台で世界は変えられる。私達はそう信じています。誰もがそのチャンスを持っています。そのことを一人でも多くの人に知ってもらうために私達は存在します。</p>
+        </div>
+        <div class="contents-top-item">
+          <h2><span class="how-highlight">How</span> We Do</h2>
+          <p>私達が突き詰めるものは３つ。楽しさ、シンプルさ、そして奥深さです。ユーザーが楽しく、簡単に扱え、本質的に理解をできるサービスを追求しています。</p>
+        </div>
+      </div>
+      
+      <div class="contents-bottom">
+        <h1>どんな言語が学べるの？</h1>
+        <table>
+          <tr>
+            <th>言語名</th>
+            <th>特徴</th>
+          </tr>
+          <tr>
+            <td class="html-title">HTML</td>
+            <td>ウェブページの作成に使用される言語です。</td>
+          </tr>
+          <tr>
+            <td class="css-title">CSS</td>
+            <td>CSSは、HTMLと組み合わせて使用され、それを装飾する言語です。</td>
+          </tr>
+          <tr>
+            <td class="php-title">PHP</td>
+            <td>PHPはHTMLにプログラムを埋め込む言語です。</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-left">
+      <ul>
+        <li>会社概要</li>
+        <li>採用</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </div>
+    <div class="like-box">
+      <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProgate%2F742679992421539&amp;show_faces=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:300px;" allowTransparency="true"></iframe>
+    </div>
+  </div>
+</body>
 </html>
